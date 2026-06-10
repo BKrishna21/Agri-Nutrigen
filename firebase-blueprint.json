@@ -1,0 +1,47 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "Information about the authenticated user.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "displayName": { "type": "string" },
+        "photoURL": { "type": "string" }
+      },
+      "required": ["uid", "email"]
+    },
+    "PlannerResult": {
+      "title": "Planner Result",
+      "description": "A saved crop recommendation plan.",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "region": { "type": "string" },
+        "soilType": { "type": "string" },
+        "deficiency": { "type": "string" },
+        "recommendation": {
+          "type": "object",
+          "properties": {
+            "crops": { "type": "array", "items": { "type": "string" } },
+            "focus": { "type": "string" },
+            "tips": { "type": "string" }
+          }
+        },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "region", "soilType", "deficiency", "recommendation", "createdAt"]
+    }
+  },
+  "firestore": {
+    "users/{userId}": {
+      "schema": "User",
+      "description": "User profile documents."
+    },
+    "plans/{planId}": {
+      "schema": "PlannerResult",
+      "description": "Saved crop recommendations."
+    }
+  }
+}
