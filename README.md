@@ -19,7 +19,7 @@ AgriNutrigen provides an intelligent recommendation system capable of suggesting
 - Geographic location
 - Soil environmental parameters
 - Weather-related information
-- Machine Learning prediction
+- Machine Learning prediction based on decision tree algorithm
 
 The project combines GIS, Artificial Intelligence, and Full Stack Web Development into a single decision-support platform.
 
