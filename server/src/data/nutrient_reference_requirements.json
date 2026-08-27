@@ -1,0 +1,78 @@
+{
+  "dataset_name": "AgriNutrigen Nutrient Reference Requirements",
+  "purpose": "Reference values for normalizing crop nutrient content before nutrition scoring.",
+  "primary_source": "ICMR-NIN Nutrient Requirements for Indians: Recommended Dietary Allowances (RDA) and Estimated Average Requirements (EAR), 2020",
+  "source_url": "https://www.nin.res.in/RDA_Full_Report_2024.html",
+  "source_note": "ICMR-NIN 2020 provides age- and sex-specific adolescent recommendations. Vitamin D is converted from 600 IU/day to 15 micrograms/day for compatibility with the crop dataset.",
+  "important_note": "These are population dietary reference values, not individual medical targets. They should not be interpreted as a diagnosis or treatment recommendation.",
+  "nutrients": {
+    "iron": "mg/day",
+    "zinc": "mg/day",
+    "folate": "µg/day",
+    "vitamin_b12": "µg/day",
+    "vitamin_a": "µg/day",
+    "vitamin_d": "µg/day" 
+  },
+  "records": [
+    {
+      "age_group": "10-12",
+      "sex": "boys",
+      "iron_mg": 16,
+      "zinc_mg": 8.5,
+      "folate_ug": 220,
+      "vitamin_b12_ug": 2.2,
+      "vitamin_a_ug": 770,
+      "vitamin_d_ug": 15
+    },
+    {
+      "age_group": "10-12",
+      "sex": "girls",
+      "iron_mg": 28,
+      "zinc_mg": 8.5,
+      "folate_ug": 225,
+      "vitamin_b12_ug": 2.2,
+      "vitamin_a_ug": 790,
+      "vitamin_d_ug": 15
+    },
+    {
+      "age_group": "13-15",
+      "sex": "boys",
+      "iron_mg": 22,
+      "zinc_mg": 14.3,
+      "folate_ug": 285,
+      "vitamin_b12_ug": 2.2,
+      "vitamin_a_ug": 930,
+      "vitamin_d_ug": 15
+    },
+    {
+      "age_group": "13-15",
+      "sex": "girls",
+      "iron_mg": 30,
+      "zinc_mg": 12.8,
+      "folate_ug": 245,
+      "vitamin_b12_ug": 2.2,
+      "vitamin_a_ug": 890,
+      "vitamin_d_ug": 15
+    },
+    {
+      "age_group": "16-18",
+      "sex": "boys",
+      "iron_mg": 26,
+      "zinc_mg": 17.6,
+      "folate_ug": 340,
+      "vitamin_b12_ug": 2.2,
+      "vitamin_a_ug": 1000,
+      "vitamin_d_ug": 15
+    },
+    {
+      "age_group": "16-18",
+      "sex": "girls",
+      "iron_mg": 32,
+      "zinc_mg": 14.2,
+      "folate_ug": 270,
+      "vitamin_b12_ug": 2.2,
+      "vitamin_a_ug": 860,
+      "vitamin_d_ug": 15
+    }
+  ]
+}

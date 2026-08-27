@@ -1,0 +1,3281 @@
+{
+  "dataset_name": "AgriNutrigen Combined Genomic Nutrition Priority",
+  "purpose": "Combines regional adolescent nutrient-deficiency prevalence with demo genomic relevance.",
+  "method": {
+    "regional_score": "Low=1, Moderate=2, High=3",
+    "genetic_score": "Low=1, Moderate=2, High=3",
+    "formula": "combined_score = (regional_score × 2) + genetic_score",
+    "priority_rules": {
+      "Very High": ">= 8",
+      "High": "6-7",
+      "Moderate": "4-5",
+      "Low": "< 4"
+    }
+  },
+  "important_note": "This is a transparent research/demo prioritization score. It is not a clinical risk score or medical diagnosis. Genetic evidence modifies nutritional priority; it does not directly select a crop.",
+  "records": [
+    {
+      "state": "Delhi",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 18.4,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Delhi",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 12.6,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Delhi",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 47.1,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Delhi",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 42.6,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Moderate regional deficiency + no genomic result"
+    },
+    {
+      "state": "Delhi",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 31.2,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Delhi",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 3.7,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Haryana",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 28.7,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Haryana",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 8.9,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Haryana",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 53.8,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 9,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Haryana",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 19.4,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 2,
+      "combined_priority": "Low",
+      "interpretation": "Low regional deficiency + no genomic result"
+    },
+    {
+      "state": "Haryana",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 34.3,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Haryana",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 33.5,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 6,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Himachal Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 22.0,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Himachal Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 3.3,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Himachal Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 17.6,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Himachal Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 51.6,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 6,
+      "combined_priority": "High",
+      "interpretation": "High regional deficiency + no genomic result"
+    },
+    {
+      "state": "Himachal Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 32.7,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Himachal Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 5.6,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 30.7,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 7.0,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 52.8,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 9,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 38.6,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Moderate regional deficiency + no genomic result"
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 25.5,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 8.8,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Punjab",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 45.3,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Punjab",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 12.8,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Punjab",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 68.0,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 9,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Punjab",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 51.8,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 6,
+      "combined_priority": "High",
+      "interpretation": "High regional deficiency + no genomic result"
+    },
+    {
+      "state": "Punjab",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 46.4,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Punjab",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 18.8,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Rajasthan",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 35.1,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Rajasthan",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 1.9,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Rajasthan",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 25.8,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Rajasthan",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 22.6,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 2,
+      "combined_priority": "Low",
+      "interpretation": "Low regional deficiency + no genomic result"
+    },
+    {
+      "state": "Rajasthan",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 47.4,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Rajasthan",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 52.7,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 8,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Uttarakhand",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 19.6,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Uttarakhand",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 16.4,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Uttarakhand",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 62.9,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 9,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Uttarakhand",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 29.2,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Moderate regional deficiency + no genomic result"
+    },
+    {
+      "state": "Uttarakhand",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 27.4,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Uttarakhand",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 19.5,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Chhattisgarh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 31.3,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Chhattisgarh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 25.7,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 6,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Chhattisgarh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 21.6,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Chhattisgarh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 36.2,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Moderate regional deficiency + no genomic result"
+    },
+    {
+      "state": "Chhattisgarh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 47.1,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Chhattisgarh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 68.2,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 8,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 22.1,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 13.2,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 23.0,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 19.9,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 2,
+      "combined_priority": "Low",
+      "interpretation": "Low regional deficiency + no genomic result"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 42.0,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 74.5,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 8,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 17.2,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 18.8,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 19.4,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 26.3,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Moderate regional deficiency + no genomic result"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 42.1,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 5.2,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Bihar",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 12.7,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Bihar",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 21.9,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Bihar",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 35.7,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Bihar",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 23.7,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 2,
+      "combined_priority": "Low",
+      "interpretation": "Low regional deficiency + no genomic result"
+    },
+    {
+      "state": "Bihar",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 24.7,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Bihar",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 11.6,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Jharkhand",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 10.1,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Jharkhand",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 29.8,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 6,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Jharkhand",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 29.6,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Jharkhand",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 49.8,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Moderate regional deficiency + no genomic result"
+    },
+    {
+      "state": "Jharkhand",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 22.0,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Jharkhand",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 23.8,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Odisha",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 20.4,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Odisha",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 19.1,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Odisha",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 18.4,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Odisha",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 42.4,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Moderate regional deficiency + no genomic result"
+    },
+    {
+      "state": "Odisha",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 15.6,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Odisha",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 68.5,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 8,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "West Bengal",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 16.9,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "West Bengal",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 4.9,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "West Bengal",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 19.5,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "West Bengal",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 26.6,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Moderate regional deficiency + no genomic result"
+    },
+    {
+      "state": "West Bengal",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 3.7,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "West Bengal",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 0.0,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 18.3,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 9.5,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 21.9,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 20.1,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 2,
+      "combined_priority": "Low",
+      "interpretation": "Low regional deficiency + no genomic result"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 12.5,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 47.9,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 6,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Assam",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 11.5,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Assam",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 14.3,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Assam",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 7.1,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Assam",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 33.9,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Moderate regional deficiency + no genomic result"
+    },
+    {
+      "state": "Assam",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 10.0,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Assam",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 73.3,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 8,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Manipur",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 12.6,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Manipur",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 12.5,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Manipur",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 59.8,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 9,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Manipur",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 52.8,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 6,
+      "combined_priority": "High",
+      "interpretation": "High regional deficiency + no genomic result"
+    },
+    {
+      "state": "Manipur",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 11.0,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Manipur",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 6.7,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Meghalaya",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 13.7,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Meghalaya",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 5.6,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Meghalaya",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 6.6,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Meghalaya",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 49.3,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Moderate regional deficiency + no genomic result"
+    },
+    {
+      "state": "Meghalaya",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 9.7,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Meghalaya",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 61.5,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 8,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Mizoram",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 9.4,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Mizoram",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 21.5,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Mizoram",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 13.4,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Mizoram",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 6.8,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 2,
+      "combined_priority": "Low",
+      "interpretation": "Low regional deficiency + no genomic result"
+    },
+    {
+      "state": "Mizoram",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 10.6,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Mizoram",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 22.2,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Nagaland",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 7.4,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Nagaland",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 4.3,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 2,
+      "combined_priority": "Low",
+      "interpretation": "Low regional deficiency + no genomic result"
+    },
+    {
+      "state": "Nagaland",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 2.3,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Nagaland",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 88.9,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 8,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Sikkim",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 21.2,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Sikkim",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 4.7,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Sikkim",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 18.8,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Sikkim",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 36.8,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Moderate regional deficiency + no genomic result"
+    },
+    {
+      "state": "Sikkim",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 16.0,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Sikkim",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 0.8,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Tripura",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 11.8,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Tripura",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 19.2,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Tripura",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 28.8,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Tripura",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 39.3,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Moderate regional deficiency + no genomic result"
+    },
+    {
+      "state": "Tripura",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 9.7,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Tripura",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 3.8,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Goa",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 13.6,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Goa",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 3.6,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Goa",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 21.5,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Goa",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 25.8,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Moderate regional deficiency + no genomic result"
+    },
+    {
+      "state": "Goa",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 14.0,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Goa",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 48.4,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 6,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Gujarat",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 35.0,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Gujarat",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 16.8,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Gujarat",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 35.5,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Gujarat",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 55.1,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 6,
+      "combined_priority": "High",
+      "interpretation": "High regional deficiency + no genomic result"
+    },
+    {
+      "state": "Gujarat",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 47.7,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Gujarat",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 59.3,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 8,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Maharashtra",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 31.2,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Maharashtra",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 8.1,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Maharashtra",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 22.1,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Maharashtra",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 25.1,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Moderate regional deficiency + no genomic result"
+    },
+    {
+      "state": "Maharashtra",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 37.7,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Maharashtra",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 71.7,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 8,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Andhra Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 15.2,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Andhra Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 13.0,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Andhra Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 15.9,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Andhra Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 20.6,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 2,
+      "combined_priority": "Low",
+      "interpretation": "Low regional deficiency + no genomic result"
+    },
+    {
+      "state": "Andhra Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 20.7,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Andhra Pradesh",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 82.6,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 8,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Karnataka",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 30.5,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Karnataka",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 8.5,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Karnataka",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 15.6,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Karnataka",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 46.8,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Moderate regional deficiency + no genomic result"
+    },
+    {
+      "state": "Karnataka",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 45.5,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Karnataka",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 70.4,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 8,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Kerala",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 25.3,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Kerala",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 13.2,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Kerala",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 31.6,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Kerala",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 17.2,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 2,
+      "combined_priority": "Low",
+      "interpretation": "Low regional deficiency + no genomic result"
+    },
+    {
+      "state": "Kerala",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 2.3,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Kerala",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 53.2,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 8,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Tamil Nadu",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 26.1,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Tamil Nadu",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 14.3,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Tamil Nadu",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 9.8,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Tamil Nadu",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 46.3,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Moderate regional deficiency + no genomic result"
+    },
+    {
+      "state": "Tamil Nadu",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 18.9,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Tamil Nadu",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 63.0,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 8,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Telangana",
+      "age_group": "adolescents_10_19",
+      "nutrient": "iron",
+      "regional_deficiency_pct": 26.0,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "TMPRSS6"
+      ],
+      "variants": [
+        "rs855791"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Telangana",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_a",
+      "regional_deficiency_pct": 19.7,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "BCO1"
+      ],
+      "variants": [
+        "rs12934922",
+        "rs7501331"
+      ],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + moderate genetic relevance"
+    },
+    {
+      "state": "Telangana",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_d",
+      "regional_deficiency_pct": 8.8,
+      "regional_deficiency_level": "Low",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "GC",
+        "CYP2R1"
+      ],
+      "variants": [
+        "rs2282679",
+        "rs10741657"
+      ],
+      "combined_score": 5,
+      "combined_priority": "Moderate",
+      "interpretation": "Low regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Telangana",
+      "age_group": "adolescents_10_19",
+      "nutrient": "zinc",
+      "regional_deficiency_pct": 27.9,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "No genomic result",
+      "genetic_score": null,
+      "genes": [],
+      "variants": [],
+      "combined_score": 4,
+      "combined_priority": "Moderate",
+      "interpretation": "Moderate regional deficiency + no genomic result"
+    },
+    {
+      "state": "Telangana",
+      "age_group": "adolescents_10_19",
+      "nutrient": "vitamin_b12",
+      "regional_deficiency_pct": 29.1,
+      "regional_deficiency_level": "Moderate",
+      "genetic_relevance": "High",
+      "genetic_score": 3,
+      "genes": [
+        "FUT2",
+        "FUT6"
+      ],
+      "variants": [
+        "rs602662",
+        "rs3760775",
+        "rs78060698"
+      ],
+      "combined_score": 7,
+      "combined_priority": "High",
+      "interpretation": "Moderate regional deficiency + high genetic relevance"
+    },
+    {
+      "state": "Telangana",
+      "age_group": "adolescents_10_19",
+      "nutrient": "folate",
+      "regional_deficiency_pct": 63.7,
+      "regional_deficiency_level": "High",
+      "genetic_relevance": "Moderate",
+      "genetic_score": 2,
+      "genes": [
+        "MTHFR"
+      ],
+      "variants": [
+        "rs1801133"
+      ],
+      "combined_score": 8,
+      "combined_priority": "Very High",
+      "interpretation": "High regional deficiency + moderate genetic relevance"
+    }
+  ]
+}
