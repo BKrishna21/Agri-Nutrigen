@@ -7,6 +7,7 @@ import authRoutes from "./routes/authRoutes.js";
 import saveplanroutes from "./routes/savedplansRoutes.js";
 import locationRoutes from "./routes/locationRoutes.js";
 import mlRoutes from "./routes/mlRoutes.js";
+import regionaldashboardRoutes from "./routes/regionaldashboardRoutes.js";
 
 const app = express();
 
@@ -28,6 +29,8 @@ app.use("/api/savedplans", saveplanroutes );
 app.use("/api/location", locationRoutes);
 
 app.use("/api/ml", mlRoutes);
+
+app.use("/api/regional", regionaldashboardRoutes);
 
 
 export default app;

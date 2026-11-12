@@ -52,6 +52,7 @@ export default function CoordinateCard({
         <p className="text-gray-500">
           Click on the map to select location.
         </p>
+        
       )}
 
     </div>

@@ -6,6 +6,8 @@ import { useAuth } from "../lib/AuthContext";
 
 import Card from "../components/Card";
 
+import PlanDetailsModal from "../components/PlanDetailsModal";
+
 import {
 
   Calendar,
@@ -27,7 +29,7 @@ import {
 
 import axios from "axios";
 
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 
 
@@ -35,7 +37,7 @@ export default function MyPlans() {
 
   const { user } = useAuth();
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
 
 
@@ -46,6 +48,8 @@ export default function MyPlans() {
   const [loading, setLoading] =
     useState(true);
 
+  const [selectedPlan, setSelectedPlan] = 
+    useState<any>(null);
 
 
 
@@ -481,7 +485,7 @@ export default function MyPlans() {
 
                       {/* VIEW DETAILS */}
 
-                      <button
+                      {/* <button
 
                         onClick={() =>
 
@@ -496,8 +500,13 @@ export default function MyPlans() {
 
                         View Details
 
+                      </button> */}
+                      <button
+                        onClick={() => setSelectedPlan(plan)}
+                        className="text-sm font-bold text-green-600 hover:text-green-700"
+                      >
+                        View Details
                       </button>
-
                     </div>
 
                   </Card>
@@ -512,6 +521,14 @@ export default function MyPlans() {
         )}
 
       </div>
+
+
+      {selectedPlan && (
+        <PlanDetailsModal
+          plan={selectedPlan}
+          onClose={() => setSelectedPlan(null)}
+        />
+      )}
 
     </div>
   );
